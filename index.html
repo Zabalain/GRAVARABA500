@@ -23,7 +23,7 @@ nav a{color:#d9e2d6;text-decoration:none;padding:6px 12px;border-radius:99px;fon
 .hero p{max-width:620px;font-size:18px;color:#d9e2d6;margin:14px 0 26px}
 .stats{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:28px}
 .stat{background:#ffffff14;border:1px solid #ffffff26;border-radius:var(--r);padding:12px 20px}
-.stat b{display:block;font:700 40px 'Barlow Condensed',sans-serif}.stat span{font-size:13px;color:#cdd8ca}
+.stat b{display:block;font:700 40px 'Barlow Condensed',sans-serif}.stat>span{font-size:13px;color:#cdd8ca}
 .btn{display:inline-block;background:var(--cl);color:#fff;text-decoration:none;border:0;border-radius:99px;padding:11px 22px;font:600 15px Inter,sans-serif;cursor:pointer;margin:0 8px 8px 0}
 .btn:hover{filter:brightness(1.08)}.btn.o{background:transparent;border:1.5px solid currentColor;color:inherit}.btn.s{padding:6px 14px;font-size:13px}
 section{padding:56px 0}section>.w>h2{font-size:clamp(34px,5vw,52px);text-transform:uppercase;color:var(--gd)}
@@ -71,11 +71,13 @@ td:last-child{justify-content:flex-end;padding-top:6px}.btn.s{margin:0}
 .dlr{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--ln)}.dlr:last-child{border:0}.dlr div{flex:1}.dlr small{display:block;color:var(--mut)}.dlr .btn{margin:0}.dlr .dot{flex:none;margin:0}
 @media(max-width:600px){#info .sum{grid-template-columns:repeat(3,1fr);gap:8px}#info .sum b{font-size:21px;white-space:nowrap}.rt .btn{width:100%;text-align:center}.chip{padding:6px 12px;font-size:13px}.rt h3{font-size:26px}}
 .rd{margin:12px 0 0}#info h4{font:700 22px 'Barlow Condensed','Arial Narrow',sans-serif;text-transform:uppercase;color:var(--gd);margin:16px 0 4px}.see{margin:0;padding-left:20px}.see li{margin:3px 0}#info .sum{margin-top:12px}
-.dv{background:#fbeee6;border:1px solid #efc8b3;border-radius:10px;padding:8px 10px;font-size:13.5px;margin:8px 0}.poi.wide{grid-column:1/-1}.poi.wide p{max-width:820px}.lg{display:flex;gap:2px;margin-left:10px;flex:none}.lg button{background:transparent;border:1px solid #ffffff40;color:#d9e2d6;border-radius:99px;padding:3px 9px;font:600 12px Inter,sans-serif;cursor:pointer}.lg button.on{background:#e8935f;color:#16251a;border-color:#e8935f}label i{font-style:normal}.bn{white-space:nowrap}.bn i,.bn em{font-style:normal}.bn i{color:#cf6a2f}.bn em{color:#d9261a}.hero .bn i,nav .bn i,footer .bn i,.pimg .bn i{color:#e8935f}.hero .bn em,nav .bn em,footer .bn em,.pimg .bn em{color:#ff4a3d}.srch{width:100%;padding:11px 16px;border:1px solid var(--ln);border-radius:99px;font:inherit;background:#fff;margin-bottom:12px}#up{position:fixed;right:14px;bottom:16px;z-index:900;width:44px;height:44px;border-radius:50%;border:0;background:var(--cl);color:#fff;font-size:22px;box-shadow:0 2px 8px #0005;align-items:center;justify-content:center;cursor:pointer}
+.dv{background:#fbeee6;border:1px solid #efc8b3;border-radius:10px;padding:8px 10px;font-size:13.5px;margin:8px 0}.poi.wide{grid-column:1/-1}.poi.wide p{max-width:820px}.lg{display:flex;gap:2px;margin-left:10px;flex:none}.lg button{background:transparent;border:1px solid #ffffff40;color:#d9e2d6;border-radius:99px;padding:3px 9px;font:600 12px Inter,sans-serif;cursor:pointer}.lg button.on{background:#e8935f;color:#16251a;border-color:#e8935f}label i{font-style:normal}.see{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 0;padding:0}.seep{display:inline-block;padding:5px 12px;border:1px solid var(--ln);border-radius:99px;background:#fff;color:var(--ink);text-decoration:none;font-size:13.5px;line-height:1.3}.seep:hover{border-color:var(--cl);color:var(--cl)}.flash{animation:fl 1.8s}@keyframes fl{0%,70%{box-shadow:0 0 0 3px #c2552b99}100%{box-shadow:0 0 0 0 #c2552b00}}.od{display:inline-block;overflow:hidden;height:1em;line-height:1;vertical-align:top}.odi{display:block;transition-property:transform;transition-timing-function:cubic-bezier(.15,.75,.2,1)}.odi i{display:block;height:1em;line-height:1;font-style:normal}.odsep{display:inline-block;height:1em;line-height:1;vertical-align:top}.stat b{font-variant-numeric:tabular-nums}
+.pin{display:block;width:14px;height:14px;box-sizing:border-box;border-radius:50%;border:2px solid #fff;box-shadow:0 1px 4px #0006;background:#c2552b;transition:transform .15s}.leaflet-marker-icon:hover .pin{transform:scale(1.3)}.pin-town{width:11px;height:11px;margin:1.5px;background:#fff;border:2.5px solid #16251a;box-shadow:0 1px 3px #0005}.pin-food{background:#2f6f8f}.pin-bed{background:#8a4fa0}.pin-shop{background:#7a9a2e}.pin-water{background:#2f9fd0}
+.bn{white-space:nowrap}.bn i,.bn em{font-style:normal}.bn i{color:#cf6a2f}.bn em{color:#d9261a}.hero .bn i,nav .bn i,footer .bn i,.pimg .bn i{color:#e8935f}.hero .bn em,nav .bn em,footer .bn em,.pimg .bn em{color:#ff4a3d}.srch{width:100%;padding:11px 16px;border:1px solid var(--ln);border-radius:99px;font:inherit;background:#fff;margin-bottom:12px}#up{position:fixed;right:14px;bottom:16px;z-index:900;width:44px;height:44px;border-radius:50%;border:0;background:var(--cl);color:#fff;font-size:22px;box-shadow:0 2px 8px #0005;align-items:center;justify-content:center;cursor:pointer}
 .acc .ah{display:block;width:100%;background:none;border:0;padding:0;text-align:left;font:inherit;cursor:default}.acc .th,.acc .chev{display:none}.acc .ht b{display:block;font:700 26px 'Barlow Condensed','Arial Narrow',sans-serif;line-height:1.1}.acc .ht small{color:var(--mut);font-size:13px}.acc .ab{display:block;margin-top:8px}
 @media(max-width:700px){.pois{grid-template-columns:1fr;gap:8px}.card.acc{padding:0}.acc .ah{display:flex;align-items:center;gap:12px;padding:10px 12px;cursor:pointer}.acc .th{display:flex;width:54px;height:54px;border-radius:10px;overflow:hidden;background:linear-gradient(135deg,#dcd4c1,#c3cfbd);align-items:center;justify-content:center;font-size:24px;flex:none}.acc .th img{width:100%;height:100%;object-fit:cover;display:block}.acc .ht{flex:1;min-width:0}.acc .ht b{font-size:21px}.acc .chev{display:block;color:var(--mut);transition:transform .2s}.acc.open .chev{transform:rotate(180deg)}.acc .ab{display:none;margin:0;padding:0 12px 14px}.acc.open .ab{display:block}.poi.wide .pimg,.pimg{height:190px}.tabs{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px}.tab{flex:none;white-space:nowrap}.alt{flex:1 1 calc(50% - 8px)}}
 .days{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px;margin:12px 0 14px}.dayc{position:relative;overflow:hidden;border:1px solid var(--ln);border-top:4px solid var(--c);border-radius:12px;background:#fff;padding:10px 12px 74px;min-height:150px}.dayc>*{position:relative;z-index:1}.dayc>.dprof{position:absolute;z-index:0;left:0;right:0;bottom:0;width:100%;height:58%}.dayc .dh{display:flex;align-items:center;justify-content:space-between;gap:8px}.dayc .dh .btn{margin:0}.dayc .dl{font-size:14px;margin:6px 0 8px}.dayc .dst{display:flex;gap:16px}.dayc .dst b{font:700 26px 'Barlow Condensed','Arial Narrow',sans-serif;margin-right:3px}.dayc .dst span{font-size:12.5px;color:var(--mut)}.pimg{height:170px;border-radius:10px;overflow:hidden;background:linear-gradient(135deg,#dcd4c1,#c3cfbd);display:flex;align-items:center;justify-content:center;font-size:44px;margin-bottom:12px;position:relative}.pimg img{width:100%;height:100%;object-fit:cover;display:block}.pimg>a,.pimg>span{position:absolute;right:6px;bottom:6px;max-width:92%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;background:#000a;color:#fff;font-size:11px;padding:2px 8px;border-radius:99px;text-decoration:none}.poi.wide .pimg{height:240px}h2{overflow-wrap:anywhere}
-@media(max-width:600px){section>.w>h2{font-size:30px}nav .w{flex-wrap:wrap;row-gap:0;padding-top:6px;padding-bottom:6px}nav a{padding:6px 7px;font-size:12.5px}.lg{order:-1;width:100%;justify-content:flex-end;margin:0 0 2px}.lg button{padding:2px 9px;font-size:11.5px}}
+@media(max-width:600px){section>.w>h2{font-size:30px}.stat.dls{grid-column:1/-1}nav .w{flex-wrap:wrap;row-gap:0;padding-top:6px;padding-bottom:6px}nav a{padding:6px 7px;font-size:12.5px}.lg{order:-1;width:100%;justify-content:flex-end;margin:0 0 2px}.lg button{padding:2px 9px;font-size:11.5px}}
 </style></head>
 <body>
 <nav><div class="w"><b>GRAV<i>ARABA</i><em>500</em></b><a href="#ruta" data-i="nav_routes"></a><a href="#planificador" data-i="nav_planner"></a><a href="#servicios" data-i="nav_services"></a><a href="#descargas" data-i="nav_dl"></a><span class="lg"><button data-l="eu">EU</button><button data-l="es">ES</button><button data-l="en">EN</button></span></div></nav>
@@ -83,7 +85,7 @@ td:last-child{justify-content:flex-end;padding-top:6px}.btn.s{margin:0}
 <header class="hero"><div class="w">
 <h1>GRAV<i>ARABA</i><em>500</em></h1>
 <p data-i="hero_p"></p>
-<div class="stats"><div class="stat"><b id="sKm">—</b><span data-i="st_km"></span></div><div class="stat"><b id="sAsc">—</b><span data-i="st_asc"></span></div></div>
+<div class="stats"><div class="stat"><b id="sKm">—</b><span data-i="st_km"></span></div><div class="stat"><b id="sAsc">—</b><span data-i="st_asc"></span></div><div class="stat dls" id="dlStat" style="display:none"><b id="sDl">—</b><span data-i="st_dl"></span></div></div>
 <a class="btn" href="#planificador" data-i="btn_plan"></a><a class="btn o" href="tracks/GRAVARABA500.gpx" download data-i="btn_dl_full"></a>
 </div></header>
 
@@ -120,10 +122,10 @@ const TX={"routes":[{"es":"Ruta completa","eu":"Ibilbide osoa","en":"Full route"
 // siempre que estén a menos de 3,5 km del track (r: radio máximo propio). El desvío se suma a los km del día.
 const STOPS=[{"n": "Villarreal de Álava", "la": 42.9831, "lo": -2.6331}, {"n": "Alegría-Dulantzi", "la": 42.8442, "lo": -2.5119}, {"n": "Agurain/Salvatierra", "la": 42.8517, "lo": -2.3869}, {"n": "Alsasua", "la": 42.8975, "lo": -2.1681}, {"n": "Laguardia", "la": 42.5528, "lo": -2.5853}, {"n": "Labastida", "la": 42.5903, "lo": -2.7958}, {"n": "Haro", "la": 42.575, "lo": -2.85}, {"n": "Peñacerrada-Urizaharra", "la": 42.61, "lo": -2.82}, {"n": "Pobes", "la": 42.8019, "lo": -2.9094}, {"n": "Salinas de Añana", "la": 42.8056, "lo": -2.9861}, {"n": "Miranda de Ebro", "la": 42.686, "lo": -2.9467}, {"n": "Berantevilla", "la": 42.6823, "lo": -2.8603}, {"n": "Treviño", "la": 42.7358, "lo": -2.7114}, {"n": "Maeztu", "la": 42.7428, "lo": -2.4086}, {"n": "Santa Cruz de Campezo", "la": 42.6867, "lo": -2.37}, {"n": "Orduña", "la": 42.9867, "lo": -3.0039, "r": 6}];
 // ===== Puntos de interés destacados, pueblos y servicios =====
-// Para añadir un servicio: POIS.push({c:'bed',n:{es:'..',eu:'..',en:'..'},la:42.8,lo:-2.6,d:{es:'..',eu:'..',en:'..'}}); c: poi|town|food|bed|shop|water
+// Para añadir un sitio: POIS.push({c:'poi',n:{es:'..',eu:'..',en:'..'},la:42.8,lo:-2.6,d:{es:'..',eu:'..',en:'..'}}); c: poi (punto de interés) | town (localidad)
 const POIS=TX.poiMeta.map(m=>({...m}));
-POIS.push({c:'town',k:'Vitoria-Gasteiz',town:1,la:42.8467,lo:-2.6716,nodv:1},...STOPS.map(s=>({c:'town',k:s.n,town:1,la:s.la,lo:s.lo})));
-const CATS={poi:'📍',town:'🏘️',food:'🍽️',bed:'🛏️',shop:'🛒',water:'💧'};
+POIS.push({c:'town',k:'Vitoria-Gasteiz',town:1,la:42.8467,lo:-2.6716,nodv:1},...STOPS.map(s=>({c:'town',k:s.n,town:1,la:s.la,lo:s.lo,r:s.r})));
+const CATS={poi:'📍',town:'🏘️'};
 // =====================================================
 const UI_={
 page_title:{es:'GRAVARABA500 · Bikepacking gravel por Álava',eu:'GRAVARABA500 · Gravel bikepacking Araban',en:'GRAVARABA500 · Gravel bikepacking in Álava'},
@@ -134,7 +136,8 @@ nav_services:{es:'Servicios',eu:'Zerbitzuak',en:'Services'},
 nav_dl:{es:'Descargas',eu:'Deskargak',en:'Downloads'},
 hero_p:{es:'Una ruta de bikepacking en bicicleta de gravel por toda la provincia de Álava, con salida y llegada en Vitoria-Gasteiz. Hazla entera o elige el tramo que encaje con tus días, tu forma y tus piernas.',eu:'Gravel bizikletaz egiteko bikepacking ibilbidea Arabako probintzia osoan zehar, Gasteizen hasi eta amaituta. Egin ezazu osorik edo aukeratu zure egunei, zure formari eta zure hankei egokitzen zaien zatia.',en:'A bikepacking route for gravel bikes across the whole province of Álava, starting and finishing in Vitoria-Gasteiz. Ride all of it or choose the stretch that fits your days, your fitness and your legs.'},
 st_km:{es:'kilómetros',eu:'kilometro',en:'kilometres'},
-st_asc:{es:'metros de desnivel + acumulado',eu:'metro positibo metatuak',en:'metres of cumulative climbing'},
+st_asc:{es:'mts desnivel',eu:'mts desnibel',en:'m of climbing'},
+st_dl:{es:'descargas de GPX',eu:'GPX deskarga',en:'GPX downloads'},
 st_max:{es:'cota máxima (m)',eu:'gehieneko altitudea (m)',en:'highest point (m)'},
 st_start:{es:'salida y llegada',eu:'irteera eta helmuga',en:'start and finish'},
 btn_plan:{es:'Planifica tu ruta',eu:'Planifikatu zure ibilbidea',en:'Plan your route'},
@@ -164,7 +167,7 @@ l_a:{es:'Desnivel + máximo por día',eu:'Eguneko gehieneko desnibel positiboa',
 xhint:{es:'⚠️ Estos valores corresponden a ciclistas con experiencia en ultradistancia.',eu:'⚠️ Balio hauek ultradistantzian esperientzia duten txirrindularientzat dira.',en:'⚠️ These values are meant for cyclists with ultra-distance experience.'},
 note_plan:{es:'Tiempos orientativos en movimiento, con bici cargada y sin paradas. La ruta empieza en el punto elegido y sigue el sentido del track; si no termina donde empezaste, el regreso no está incluido.',eu:'Denbora orientagarriak dira, mugimenduan, bizikleta kargatuta eta geldialdirik gabe. Ibilbidea aukeratutako puntuan hasten da eta trackaren norabidea jarraitzen du; hasi zaren lekuan amaitzen ez bada, itzulera ez dago barne.',en:'Indicative moving times, with a loaded bike and no stops. The route starts at the chosen point and follows the direction of the track; if it does not finish where you started, the return is not included.'},
 h_serv:{es:'Puntos de interés y servicios',eu:'Interes-puntuak eta zerbitzuak',en:'Points of interest and services'},
-sub_serv:{es:'Lugares destacados y sitios útiles para planificar paradas, comida, descanso y agua.',eu:'Gune nabarmenak eta tokirik erabilgarrienak geldialdiak, otordua, atsedena eta ura planifikatzeko.',en:'Highlights and useful places for planning stops, food, rest and water.'},
+sub_serv:{es:'Lugares destacados y localidades de la ruta para planificar paradas, comida, descanso y agua.',eu:'Ibilbideko gune nabarmenak eta herriak geldialdiak, otordua, atsedena eta ura planifikatzeko.',en:'Highlights and towns along the route to help you plan stops, food, rest and water.'},
 h_dl:{es:'Descargas',eu:'Deskargak',en:'Downloads'},
 sub_dl:{es:'Todos los tracks para llevarte la ruta al GPS o al móvil: compatibles con Komoot, Garmin, Wahoo, Magene, Strava y la mayoría de apps de navegación.',eu:'Track guztiak ibilbidea GPSra edo mugikorrera eramateko: Komoot, Garmin, Wahoo, Magene, Strava eta nabigazio-aplikazio gehienekin bateragarriak.',en:'All the tracks to take the route to your GPS or phone: compatible with Komoot, Garmin, Wahoo, Magene, Strava and most navigation apps.'},
 note_dl:{es:'Los tramos calculados en el planificador se descargan desde su propio resultado, en GPX por jornada o de toda la ruta.',eu:'Planifikatzailean kalkulatutako tarteak bere emaitzatik deskargatzen dira, GPX formatuan etapa bakoitzeko edo ibilbide osorako.',en:'Stretches calculated in the planner are downloaded from their own result, as GPX per day or for the whole route.'},
@@ -236,7 +239,17 @@ let CR=F,sel=null,PL=null,cands=[];
 function link(km,out){const p=F.at(km),d=hav(P0[0],P0[1],p[0],p[1])*1.3,dz=out?p[2]-P0[2]:P0[2]-p[2];return{km:d,asc:d*4+Math.max(0,dz)}}
 const atW=km=>{if(km<=TOT)return F.at(km);const p=F.at(km-TOT);return p.map((v,i)=>i===3?v+TOT:i===4?v+F.asc:v)};
 const segW=(k1,k2)=>k2<=TOT?F.seg(k1,k2):(k1>=TOT?F.seg(k1-TOT,k2-TOT):[...F.seg(k1,TOT),...F.seg(0,k2-TOT)]);
-function stats(){$('#sKm').textContent=f0(TOT);$('#sAsc').textContent=f0(Math.round(F.asc/10)*10)}
+function odo(el,val,delay=0){const s=f0(val);el.setAttribute('aria-label',s);el.innerHTML=[...s].map(ch=>/\d/.test(ch)?`<span class="od" aria-hidden="true"><span class="odi" data-d="${ch}">${Array.from({length:20},(_,i)=>`<i>${i%10}</i>`).join('')}</span></span>`:`<span class="odsep" aria-hidden="true">${ch}</span>`).join('');
+ const set=(st,anim,i)=>{if(!anim)st.style.transition='none';else st.style.transitionDuration=(1.4+i*0.3)+'s';st.style.transform=`translateY(-${(10+(+st.dataset.d))*5}%)`};
+ const still=window.matchMedia&&matchMedia('(prefers-reduced-motion:reduce)').matches;
+ if(still){el.querySelectorAll('.odi').forEach(st=>set(st,false,0));return}
+ requestAnimationFrame(()=>requestAnimationFrame(()=>setTimeout(()=>el.querySelectorAll('.odi').forEach((st,i)=>set(st,true,i)),delay)))}
+let DLN=null;
+function stats(){odo($('#sKm'),TOT);odo($('#sAsc'),Math.round(F.asc/10)*10,150);if(DLN!==null)odo($('#sDl'),DLN,300)}
+function setDl(n){const first=DLN===null;DLN=n;$('#dlStat').style.display='';odo($('#sDl'),n,first?300:0)}
+function loadDl(){fetch('/api/downloads').then(r=>r.ok?r.json():null).then(o=>{if(o&&typeof o.total==='number')setDl(o.total)}).catch(()=>{})}
+let lastDl=0;function countDl(){const n=Date.now();if(n-lastDl<800)return;lastDl=n;fetch('/api/downloads',{method:'POST',keepalive:true}).then(r=>r.ok?r.json():null).then(o=>{if(o&&typeof o.total==='number')setDl(o.total)}).catch(()=>{})}
+document.addEventListener('click',e=>{const a=e.target.closest&&e.target.closest('a[download]');if(a&&/\.gpx($|\?)/.test(a.getAttribute('href')||''))countDl()});
 // ===== Mapa =====
 const map=L.map('map',{scrollWheelZoom:false,dragging:!L.Browser.mobile,tap:false,renderer:L.canvas({tolerance:8})}).setView([42.85,-2.68],9);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© OpenStreetMap'}).addTo(map);
@@ -251,9 +264,12 @@ function showRoute(id,o={}){CR=ROUTES[id];if(!o.plan){sel=null;lay.clearLayers()
  if(!o.nofit)map.fitBounds(L.polyline(ll(CR)).getBounds(),{padding:[20,20]});
  chips();info();profile()}
 function chips(){$('#chips').innerHTML=ROUTES.map(r=>`<button class="chip ${r.id===CR.id?'on':''}" style="--c:${r.col}" onclick="showRoute(${r.id})"><i></i>${r.id?r.id+' · ':''}${rn(r)}</button>`).join('')}
-function info(){const r=CR,I=TX.info[r.id],see=I.see[LG]||I.see.es;$('#info').innerHTML=`<div class="rt"><h3 style="color:${r.col}">${r.id?t('r_prefix')+r.id+' · ':''}${rn(r)}</h3><a class="btn" href="tracks/${r.file}" download>${t('btn_gpx')}</a></div>
+function info(){const r=CR,I=TX.info[r.id];$('#info').innerHTML=`<div class="rt"><h3 style="color:${r.col}">${r.id?t('r_prefix')+r.id+' · ':''}${rn(r)}</h3><a class="btn" href="tracks/${r.file}" download>${t('btn_gpx')}</a></div>
 <div class="sum"><div><b>${f0(r.tot)} km</b>${t('lbl_dist')}</div><div><b>${f0(r.asc)} m+</b>${t('lbl_asc')}</div><div><b>${f0(r.max)} m</b>${t('lbl_max')}</div></div>
-<p class="rd">${t('info_p',f0(r.tot),f0(r.asc),LX(I.d))}</p><h4>${t('see_h')}</h4><ul class="see">${see.map(x=>`<li>${x}</li>`).join('')}</ul>`}
+<p class="rd">${t('info_p',f0(r.tot),f0(r.asc),LX(I.d))}</p><h4>${t('see_h')}</h4><div class="see">${onRoute(r).map(x=>{const i=POIS.indexOf(x.p);return `<a class="seep" href="#servicios" onclick="goCard(${i});return false" title="${t('km_lab',f0(x.k))}">${CATS[x.p.c]} ${pname(x.p)}${x.d>0.5&&!x.p.nodv?' ⚠️':''}</a>`}).join('')}</div>`}
+function onRoute(R){const out=[];for(const p of POIS){const q=nearOn(R,p.la,p.lo);if(q.d<=Math.max(5,p.r||0))out.push({p,k:q.k,d:p.dv!=null?p.dv:q.d})}return out.sort((a,b)=>a.k-b.k)}
+function goCard(i){const p=POIS[i];Q='';const qi=$('#q');if(qi)qi.value='';tab=p.c;tabs();document.getElementById('servicios').scrollIntoView({behavior:'smooth'});
+ setTimeout(()=>{const el=document.getElementById('poi-'+i);if(!el)return;document.querySelectorAll('#pois .acc.open').forEach(e=>e.classList.remove('open'));el.classList.add('open');const h=el.querySelector('.ah');if(h)h.setAttribute('aria-expanded','true');el.scrollIntoView({behavior:'smooth',block:'center'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1800)},400)}
 // ===== Perfil =====
 function profile(){const R=CR,tot=R.tot,W=Math.max(300,$('#prof').clientWidth-34),H=W<600?190:210,l=W<600?38:44,b=26,e=[];for(let k=0;k<=tot;k+=1)e.push(R.at(k)[2]);
 const mn=Math.floor(Math.min(...e)/100)*100,mx=Math.ceil(Math.max(...e)/100)*100,X=k=>l+k/tot*(W-l-8),Y=v=>H-b-(v-mn)/(mx-mn)*(H-b-10),ts=tot>300?(W<600?100:50):(W<600?50:25);
@@ -333,7 +349,7 @@ if(!draw)return;sel=s;showRoute(0,{plan:true,nofit:true});lay.clearLayers();let 
 s.days.forEach((d,j)=>{const pts=partsPts(d.parts).map(p=>[p[0],p[1]]);all=all.concat(pts);L.polyline(pts,{color:COL[j%10],weight:6}).addTo(lay);const p=pts[pts.length-1];if(j<s.n-1)L.marker(p,{icon:L.divIcon({className:'',html:`<div class="mk" style="background:${COL[j%10]}">${j+1}</div>`,iconSize:[26,26],iconAnchor:[13,13]})}).addTo(lay).bindTooltip(t('tip_dayend',j+1,PNm(d.to),d.endLab))});
 map.fitBounds(L.polyline(all).getBounds(),{padding:[30,30]})}
 function gpx(name,pts){return `<?xml version="1.0" encoding="UTF-8"?><gpx version="1.1" creator="GRAVARABA500" xmlns="http://www.topografix.com/GPX/1.1"><trk><name>${name}</name><trkseg>${pts.map(p=>`<trkpt lat="${p[0].toFixed(6)}" lon="${p[1].toFixed(6)}"><ele>${Math.round(p[2])}</ele></trkpt>`).join('')}</trkseg></trk></gpx>`}
-function save(n,x){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([x],{type:'application/gpx+xml'}));a.download=n+'.gpx';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),2000)}
+function save(n,x){countDl();const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([x],{type:'application/gpx+xml'}));a.download=n+'.gpx';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),2000)}
 const slug=s=>(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^A-Za-z0-9]+/g,'-').replace(/^-|-$/g,'');
 function dayPts(j){return partsPts(PL.days[j].parts)}
 function dlDay(j){save(`GRAVARABA500_D${j+1}`,gpx(`GRAVARABA500 D${j+1}`,dayPts(j)))}
@@ -347,7 +363,7 @@ function hint(){$('#xhint').style.display=(+$('#mk').value>=400||+$('#mh').value
 // Descargas
 function buildDl(){$('#dl').innerHTML=ROUTES.map(r=>`<div class="dlr"><span class="dot" style="background:${r.col}"></span><div><b>${r.id?r.id+' · ':''}${rn(r)}</b><small>${f0(r.tot)} km · ${f0(r.asc)} m+</small></div><a class="btn s" href="tracks/${r.file}" download>GPX</a></div>`).join('')}
 // POIs
-const mkI=c=>L.divIcon({className:'',html:`<div style="font-size:20px;filter:drop-shadow(0 1px 2px #0008)">${CATS[c]}</div>`,iconSize:[22,22],iconAnchor:[11,11]});
+const mkI=c=>L.divIcon({className:'',html:`<span class="pin pin-${c}"></span>`,iconSize:[16,16],iconAnchor:[8,8]});
 POIS.forEach(p=>{const q=nearKm(p.la,p.lo);p.km=q.km;p.dist=q.d;p.m=L.marker([p.la,p.lo],{icon:mkI(p.c)}).addTo(map).bindPopup('')});
 POIS.sort((a,b)=>(b.long?1:0)-(a.long?1:0)||a.km-b.km);
 function popups(){POIS.forEach(p=>p.m.setPopupContent(`<b>${pname(p)}</b><br>${(pdesc(p)||'').split('\n')[0]}`))}
@@ -381,7 +397,7 @@ function loadImgs(){document.querySelectorAll('#pois .pimg').forEach(el=>{const 
 let tab='poi';
 function tabs(){$('#tabs').innerHTML=Object.keys(CATS).map(c=>`<button class="tab ${c===tab&&!Q?'on':''}" onclick="Q='';$('#q').value='';tab='${c}';tabs()">${CATS[c]} ${t('cat_'+c)}</button>`).join('');
 const l=Q?POIS.filter(p=>norm(pname(p)).includes(Q)):POIS.filter(p=>p.c===tab);
-$('#pois').innerHTML=l.length?l.map(p=>{const i=POIS.indexOf(p),dd=p.dv!=null?p.dv:p.dist,dv=dd>0.5&&!p.nodv;return `<div class="card poi acc${p.long?' wide':''}"><button class="ah" onclick="togglePoi(this)" aria-expanded="false"><span class="th" data-p="${i}">${CATS[p.c]}</span><span class="ht"><b>${pname(p)}</b><small>${t('poi_km',f0(p.km))}${dv?' · ⚠️ '+f1(dd)+' km':''}</small></span><span class="chev">▾</span></button><div class="ab"><div class="pimg" data-p="${i}">${CATS[p.c]}</div>${dv?`<div class="dv">${t('dv_poi',f1(dd),f1(dd*2))}</div>`:''}${(pdesc(p)||'').split('\n').map(x=>`<p>${x}</p>`).join('')}<button class="btn s" onclick="goPoi(${i})">${t('btn_map')}</button></div></div>`}).join(''):(Q?`<div class="card" style="grid-column:1/-1">${t('no_res')}</div>`:`<div class="card" style="grid-column:1/-1">${t('empty',t('cat_'+tab).toLowerCase(),tab)}</div>`);loadImgs()}
+$('#pois').innerHTML=l.length?l.map(p=>{const i=POIS.indexOf(p),dd=p.dv!=null?p.dv:p.dist,dv=dd>0.5&&!p.nodv;return `<div class="card poi acc${p.long?' wide':''}" id="poi-${i}"><button class="ah" onclick="togglePoi(this)" aria-expanded="false"><span class="th" data-p="${i}">${CATS[p.c]}</span><span class="ht"><b>${pname(p)}</b><small>${t('poi_km',f0(p.km))}${dv?' · ⚠️ '+f1(dd)+' km':''}</small></span><span class="chev">▾</span></button><div class="ab"><div class="pimg" data-p="${i}">${CATS[p.c]}</div>${dv?`<div class="dv">${t('dv_poi',f1(dd),f1(dd*2))}</div>`:''}${(pdesc(p)||'').split('\n').map(x=>`<p>${x}</p>`).join('')}<button class="btn s" onclick="goPoi(${i})">${t('btn_map')}</button></div></div>`}).join(''):(Q?`<div class="card" style="grid-column:1/-1">${t('no_res')}</div>`:`<div class="card" style="grid-column:1/-1">${t('empty',t('cat_'+tab).toLowerCase(),tab)}</div>`);loadImgs()}
 function togglePoi(b){const c=b.parentNode,o=c.classList.contains('open');document.querySelectorAll('#pois .acc.open').forEach(e=>{e.classList.remove('open');e.querySelector('.ah').setAttribute('aria-expanded','false')});if(!o){c.classList.add('open');b.setAttribute('aria-expanded','true');setTimeout(()=>c.scrollIntoView({block:'nearest',behavior:'smooth'}),60)}}
 function goPoi(i){const p=POIS[i];document.getElementById('ruta').scrollIntoView();map.setView([p.la,p.lo],14);p.m.openPopup()}
 // ===== Marca: GRAVARABA500 siempre con los colores corporativos =====
@@ -401,7 +417,7 @@ function setLang(l){if(!LANGS.includes(l))return;LG=l;try{localStorage.setItem('
  if(cands.length)pick(idx,!!was);else render(false);if(was)chips()}
 document.querySelectorAll('.lg button').forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.l)));
 $('#q').addEventListener('input',e=>{Q=norm(e.target.value.trim());tabs()});const upb=$('#up');upb.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));addEventListener('scroll',()=>{upb.style.display=scrollY>900?'flex':'none'},{passive:true});
-buildStops();applyStatic();brandDOM(document.body);buildDl();popups();tabs();showRoute(0);hint();render(false);
+buildStops();applyStatic();brandDOM(document.body);loadDl();buildDl();popups();tabs();showRoute(0);hint();render(false);
 let rz;addEventListener('resize',()=>{clearTimeout(rz);rz=setTimeout(()=>{profile();map.invalidateSize()},200)});
 
 </script>
